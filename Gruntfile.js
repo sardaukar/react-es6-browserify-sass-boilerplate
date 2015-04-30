@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
   require("load-grunt-tasks")(grunt);
 
-  var to5ify = require("6to5ify");
+  var to5ify = require("babelify");
 
   var rewrite = require('connect-modrewrite');
 
